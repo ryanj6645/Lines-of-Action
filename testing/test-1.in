@@ -1,0 +1,10 @@
+#*java -ea loa.Main
+# Check that I am able to capture moves properly and my retract works when I capture a move.  The AI is never started.
+manual White
+dump
+f1-h3
+a2-c2
+dump
+undo
+dump
+quit
